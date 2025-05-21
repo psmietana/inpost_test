@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Shipment;
+namespace App\Shipment;
 
-use Enums\ShipmentAdditionalService;
-use Enums\ShipmentType;
-use Models\Address;
-use Models\Dimension;
-use Models\MoneyData;
-use Models\Parcel;
-use Models\Receiver;
-use Models\Sender;
-use Models\Shipment;
-use Models\Weight;
+use App\Enums\ShipmentAdditionalService;
+use App\Enums\ShipmentType;
+use App\Models\Address;
+use App\Models\Dimension;
+use App\Models\MoneyData;
+use App\Models\Parcel;
+use App\Models\Receiver;
+use App\Models\Sender;
+use App\Models\Shipment;
+use App\Models\Weight;
 
 class ShipmentCreator
 {

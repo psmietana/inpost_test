@@ -1,8 +1,11 @@
 <?php
+namespace App;
 require __DIR__ . '/vendor/autoload.php';
 
-use Inpost\ShipmentClient;
-use Shipment\ShipmentCreator;
 
-$createdShipment = (new ShipmentClient('dev', 123, 'token'))
-    ->createShipment((new ShipmentCreator())->createShipment());
+use App\Inpost\ShipmentClient;
+use App\Shipment\ShipmentCreator;
+
+$createdShipment = (new ShipmentClient('dev', 123, 'token'))->createShipment(
+    (new ShipmentCreator())->createShipment()
+);

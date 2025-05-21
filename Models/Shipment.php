@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Models;
+namespace App\Models;
 
-use Enums\ShipmentAdditionalService;
-use Enums\ShipmentType;
+use App\Enums\ShipmentAdditionalService;
+use App\Enums\ShipmentType;
 
 readonly class Shipment
 {

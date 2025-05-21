@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Enums;
+namespace App\Enums;
 
 enum ShipmentAdditionalService: string
 {
